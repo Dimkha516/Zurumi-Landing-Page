@@ -31,7 +31,7 @@ const CreateYourPortfolio = () => {
               <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-3xl shadow-2xl">
                 <img
                   //   src="/assets/affiche 2.png"
-                  src="/assets/Capture.png"
+                  src="/Zurumi-Landing-Page/assets/Capture.png"
                   alt="Aperçu application Zurumi"
                   className="rounded-2xl w-64 sm:w-80"
                 />

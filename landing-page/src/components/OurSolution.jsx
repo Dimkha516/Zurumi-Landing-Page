@@ -11,14 +11,14 @@ const OurSolution = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="flex justify-center">
             <img
-              src="/assets/mockup.png"
+              src="/Zurumi-Landing-Page/assets/mockup.png"
               alt="Présentation Zurumi"
               className="rounded-2xl w-full max-w-md shadow-2xl"
             />
           </div>
           <div className="flex justify-center">
             <img
-              src="/assets/mockup2.png"
+              src="/Zurumi-Landing-Page/assets/mockup2.png"
               alt="Présentation Zurumi"
               className="rounded-2xl w-full max-w-md shadow-2xl"
             />

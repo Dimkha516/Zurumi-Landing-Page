@@ -40,7 +40,7 @@ const AdvantagesSection = () => {
 
           <div className="flex justify-center">
             <img
-              src="/assets/Screenshot_portrait.png"
+              src="/Zurumi-Landing-Page/assets/Screenshot_portrait.png"
               alt="Présentation Zurumi"
             className="rounded-2xl w-full max-w-md shadow-2xl"
             />

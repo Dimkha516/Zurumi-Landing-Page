@@ -28,7 +28,8 @@ const NavBar = () => {
           <div className="flex-shrink-0">
             {/* Logo seul */}
             <img
-              src="/assets/Logo_white_theme.png"
+              // src="/assets/Logo_white_theme.png"
+              src="/Zurumi-Landing-Page/assets/Logo_white_theme.png" 
               alt="Zurumi Logo"
               className="h-12 w-auto sm:h-16"
             />

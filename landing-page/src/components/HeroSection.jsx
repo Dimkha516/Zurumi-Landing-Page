@@ -45,7 +45,7 @@ const HeroSection = () => {
 
                   {/* Vidéo */}
                   <video
-                    src="/assets/App Promo Zurumi.mp4"
+                    src="/Zurumi-Landing-Page/assets/App Promo Zurumi.mp4"
                     controls
                     autoPlay
                     className="w-full rounded-2xl shadow-2xl"
@@ -65,7 +65,7 @@ const HeroSection = () => {
               <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-3xl shadow-2xl">
                 <img
                   //   src="/assets/affiche 2 - Copie.png"
-                  src="/assets/affiche 2.png"
+                  src="/Zurumi-Landing-Page/assets/affiche 2.png" 
                   alt="Aperçu application Zurumi"
                   className="rounded-2xl w-64 sm:w-80"
                 />
