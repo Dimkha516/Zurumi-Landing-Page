@@ -41,19 +41,19 @@ const NavBar = () => {
 
           <div className="hidden md:flex space-x-8">
             <button
-              onClick={() => scrollToSection("hero")}
+              onClick={() => scrollToSection("avantages")}
               className="text-gray-300 hover:text-white transition"
             >
               Zurumi?
             </button>
             <button
-              onClick={() => scrollToSection("cryptos")}
+              onClick={() => scrollToSection("solutions")}
               className="text-gray-300 hover:text-white transition"
             >
               Plateforme
             </button>
             <button
-              onClick={() => scrollToSection("avantages")}
+              onClick={() => scrollToSection("services")}
               className="text-gray-300 hover:text-white transition"
             >
               Services
@@ -68,7 +68,7 @@ const NavBar = () => {
 
           <button
             onClick={() => scrollToSection("waitlist")}
-            className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-4 sm:px-6 py-2 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 text-sm sm:text-base"
+            className="bg-gradient-to-r from-purple-500 to-purple-500 text-white px-4 sm:px-6 py-2 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 text-sm sm:text-base"
           >
             S'enregistrer
           </button>

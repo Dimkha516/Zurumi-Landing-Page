@@ -18,7 +18,7 @@ const CreateYourPortfolio = () => {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="services" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Image à gauche */}
@@ -28,12 +28,13 @@ const CreateYourPortfolio = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-3xl blur-3xl opacity-30 animate-pulse"></div>
 
               {/* Conteneur image */}
-              <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-3xl shadow-2xl">
+              {/* <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 p-4"> */}
+              <div className="relative">
                 <img
                   //   src="/assets/affiche 2.png"
                   src="/Zurumi-Landing-Page/assets/Capture.png"
                   alt="Aperçu application Zurumi"
-                  className="rounded-2xl w-64 sm:w-80"
+                  className="w-64 sm:w-80"
                 />
               </div>
             </div>
@@ -52,7 +53,8 @@ const CreateYourPortfolio = () => {
                 return (
                   <div
                     key={index}
-                    className="flex items-center space-x-3 bg-white/5 rounded-lg p-3 hover:bg-white/10 transition-all"
+                    // className="flex items-center space-x-3 bg-white/5 rounded-lg p-3 hover:bg-white/10 transition-all"
+                    className="flex items-center space-x-3"
                   >
                     <Icon className="text-cyan-400 w-6 h-6 flex-shrink-0" />
                     <span className="text-gray-200 text-lg">{action.text}</span>

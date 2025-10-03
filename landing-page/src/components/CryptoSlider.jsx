@@ -1,11 +1,11 @@
 const CryptoSlider = () => {
   const cryptos = [
-      { name: "Ethereum", symbol: "ETH", color: "from-purple-400 to-pink-500" },
-      { name: "Cardano", symbol: "ADA", color: "from-blue-400 to-cyan-500" },
-      { name: "Bitcoin", symbol: "BTC", color: "from-orange-400 to-yellow-500" },
-    { name: "Solana", symbol: "SOL", color: "from-green-400 to-emerald-500" },
-    { name: "Polkadot", symbol: "DOT", color: "from-pink-400 to-rose-500" },
-    { name: "Ripple", symbol: "XRP", color: "from-blue-500 to-indigo-500" },
+    { name: "Ethereum", symbol: "ETH", color: "from-purple-400 to-pink-500", price: "500" },
+    { name: "Cardano", symbol: "ADA", color: "from-blue-400 to-cyan-500", price: "850" },
+    { name: "Bitcoin", symbol: "BTC", color: "from-orange-400 to-yellow-500", price: "1050" },
+    { name: "Solana", symbol: "SOL", color: "from-green-400 to-emerald-500", price: "780" },
+    { name: "Polkadot", symbol: "DOT", color: "from-pink-400 to-rose-500", price: "120" },
+    { name: "Ripple", symbol: "XRP", color: "from-blue-500 to-indigo-500", price: "200" },
   ];
 
   return (
@@ -25,10 +25,13 @@ const CryptoSlider = () => {
                     {crypto.symbol.charAt(0)}
                   </div>
                   <h3 className="text-xl font-semibold text-white text-center">
-                    {crypto.name}
+                    {crypto.name} / {crypto.symbol}
                   </h3>
-                  <p className="text-gray-400 text-center text-sm mt-1">
-                    {crypto.symbol}
+                  {/* <p className="text-gray-400 text-center text-sm mt-1">
+                    {crypto.price} $
+                  </p> */}
+                  <p className="text-xl font-semibold text-white text-center">
+                    {crypto.price} $
                   </p>
                 </div>
               </div>

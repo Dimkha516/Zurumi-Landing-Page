@@ -1,48 +1,51 @@
-import { CheckCircle, CheckCircle2, CheckCircle2Icon } from "lucide-react";
+import {
+  Smartphone,
+  ShieldCheck,
+  ArrowLeftRight,
+  CreditCard,
+} from "lucide-react";
 
 const AdvantagesSection = () => {
   const advantages = [
-    "Une plateforme accessible et simple d’utilisation",
-    "Application fiable et sécurisée",
-    "Transactions fluides et frais bas",
-    "Moyen de paiement mobile money et carte",
-    // 
-    "Une plateforme accessible et simple d’utilisation",
-    "Application fiable et sécurisée",
-    "Transactions fluides et frais bas",
-    "Moyen de paiement mobile money et carte",
+    {
+      text: "Une plateforme accessible et simple d’utilisation",
+      icon: Smartphone,
+    },
+    { text: "Application fiable et sécurisée", icon: ShieldCheck },
+    { text: "Transactions fluides et frais bas", icon: ArrowLeftRight },
+    { text: "Moyen de paiement mobile money et carte", icon: CreditCard },
   ];
 
   return (
     <section id="avantages" className="py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl sm:text-4xl font-bold text-white text-center mb-12">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-3xl sm:text-6xl font-bold text-white text-center mb-12">
           Notre spécificité
         </h1>
 
-        <div className="grid md:grid-cols-2 gap-6 items-center">
-          <div className="grid sm:grid-cols-2 gap-6">
-            {advantages.map((advantage, index) => (
-              <div
-                key={index}
-                className="backdrop-blur-lg bg-white/5 border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300"
-              >
-                <div className="flex items-start space-x-4">
-                  <CheckCircle2
-                    className="text-cyan-400 flex-shrink-0 mt-1"
-                    size={24}
+        <div className="grid md:grid-cols-2 gap-8 items-center justify-items-center">
+          {/* Partie gauche : avantages */}
+          <div className="space-y-6">
+            {advantages.map((adv, index) => {
+              const Icon = adv.icon;
+              return (
+                <div key={index} className="flex items-start space-x-4">
+                  <Icon
+                    className="text-cyan-200 flex-shrink-0 mt-1"
+                    size={28}
                   />
-                  <p className="text-gray-200 text-lg">{advantage}</p>
+                  <p className="text-gray-200 text-lg">{adv.text}</p>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
+          {/* Partie droite : image */}
           <div className="flex justify-center">
             <img
               src="/Zurumi-Landing-Page/assets/Screenshot_portrait.png"
               alt="Présentation Zurumi"
-            className="rounded-2xl w-full max-w-md shadow-2xl"
+              className="rounded-4xl w-70 lg:w-100"
             />
           </div>
         </div>

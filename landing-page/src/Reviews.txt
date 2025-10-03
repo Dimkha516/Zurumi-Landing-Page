@@ -1,1 +1,17 @@
-Demander plus de points pour la partie nos spécificités
+6) Les navigations de la Navbar => OK
+
+1) Refonte First Img: enlever bordure et ajouter app & playstore icons => OK
+
+3) Valeur pour chaque cryptomonnaie => OK
+
+2) Police unique
+
+
+4) Partie Spécifités: Redimensionner image, enlever les bordures sur les textes et aligner image et textes => OK mais à revoir
+
+5) Enlever le cadre dans image créer crypto. Enlever les cadres sur les textes. => OK
+
+
+7) Copyright gauche et ajouter le tiktok.
+
+8) Mettre les bouton et Zurumi en violet.

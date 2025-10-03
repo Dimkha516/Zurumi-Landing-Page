@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="space-y-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
               Bienvenue sur la 1ere plateforme Crypto Exchange au Sénégal
-              <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-purple-400 to-purple-400 bg-clip-text text-transparent">
                 {" "}
                 Zurumi
               </span>
@@ -26,7 +26,9 @@ const HeroSection = () => {
             {/* Bouton Play */}
             <button
               onClick={() => setOpen(true)}
-              className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-105"
+              // className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-105"
+              className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105"
+
             >
               <Play className="w-5 h-5" />
               Regarder la vidéo
@@ -58,17 +60,25 @@ const HeroSection = () => {
           {/* Image à droite */}
           <div className="flex justify-center">
             <div className="relative">
-              {/* Glow autour de l’image */}
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-3xl blur-3xl opacity-30 animate-pulse"></div>
-
-              {/* Conteneur image */}
-              <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-3xl shadow-2xl">
+              <div className="relative">
                 <img
-                  //   src="/assets/affiche 2 - Copie.png"
-                  src="/Zurumi-Landing-Page/assets/affiche 2.png" 
+                  src="/Zurumi-Landing-Page/assets/affiche3.png"
                   alt="Aperçu application Zurumi"
-                  className="rounded-2xl w-64 sm:w-80"
+                  className="rounded-2xl w-64 sm:w-80 lg:w-88 xl:w-[29rem]"
                 />
+              </div>
+
+              <div className="mt-6 text-center">
+                <p className="text-white text-lg font-semibold mb-3">
+                  App mobile disponible
+                </p>
+                <div className="flex gap-4 justify-center">
+                  <img
+                    src="/Zurumi-Landing-Page/assets/play_app_store.png"
+                    alt="App Store"
+                    className="h-10"
+                  />
+                </div>
               </div>
             </div>
           </div>

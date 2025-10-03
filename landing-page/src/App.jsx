@@ -10,6 +10,7 @@ import CreateYourPortfolio from "./components/CreateYourPortfolio";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import Questions from "./components/Questions";
+import SupportSection from "./components/SupportSection";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <AdvantagesSection />
       <OurSolution />
       <CreateYourPortfolio />
+      <SupportSection />
+
       <Questions />
       <WaitlistForm />
       <Footer />
