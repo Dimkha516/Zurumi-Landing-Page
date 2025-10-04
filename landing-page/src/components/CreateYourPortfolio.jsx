@@ -9,12 +9,12 @@ import {
 
 const CreateYourPortfolio = () => {
   const buyActions = [
-    { text: "Instant buy & sell", icon: ShoppingCart },
-    { text: "Send & Receive", icon: Send },
-    { text: "Withdraw in Fia", icon: Download },
-    { text: "Trading spot", icon: TrendingUp },
-    { text: "Staking", icon: Layers },
-    { text: "Mint, buy & sell NFT", icon: Image },
+    { text: "Achat et Vente instantané", icon: ShoppingCart },
+    { text: "Envoyer et Recevoir", icon: Send },
+    { text: "Retirer en devices", icon: Download },
+    { text: "Trading", icon: TrendingUp },
+    { text: "Epargne", icon: Layers },
+    { text: "Créer, Acheter & Vendre NFT", icon: Image },
   ];
 
   return (

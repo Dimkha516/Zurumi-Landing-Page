@@ -8,31 +8,39 @@ const Questions = () => {
     {
       title: "Qu’est ce que Zurumi?",
       content:
-        "Une plateforme d’échange 100% made in Senegal permettant d’avoir accès aux actifs digitaux tels que les crypto BTC, ETH, BNB ainsi que les NFT à travers les blockchains comme Ethereum, Binance smart chain, Solana etc.",
+        " Une plateforme d’échange 100% made in Senegal permettant d’avoir accès aux actifs digitaux tels que les crypto BTC, ETH, BNB ainsi que les NFT à travers les blockchains comme Ethereum, Binance smart chain, Solana etc.",
     },
     {
-      title: " Quand est ce que la plateforme sera disponible?",
-      content: "Le lancement officiel est prévu pour décembre 2025",
-    },
-    {
-      title: " L’application est elle gratuite?",
+      title: "Qui peut créer un compte sur Zurumi ?",
       content:
-        " L’application est gratuite et disponible sur android et iOS; par contre les transactions sont payantes à cause des frais de gaz de la blockchain.",
+        "Toute personne majeure (selon la loi applicable) disposant de la capacité juridique et d’une adresse e-mail valide peut demander l’ouverture d’un compte. Zurumi peut refuser une ouverture sans avoir à motiver sa décision",
     },
     {
-      title: "Qui peut utiliser cette plateforme?",
+      title: "Quels documents sont requis pour ouvrir un compte ?",
       content:
-        "Nous avons développé une application ultra facile à utiliser, accessible à tous! Néanmoins vous devez étre majeur(18 ans et plus) et valider le K-Y-C",
+        "Pièce d’identité valide (CNI, passeport), justificatif de domicile récent, selfie pour vérification biométrique si demandé. Selon le profil et le pays, Zurumi peut demander des documents complémentaires (preuve d’activité professionnelle, preuve de provenance de fonds)",
     },
     {
-      title: " Quelles sont les crypto disponibles?",
+      title: "Zurumi a-t-elle une assurance contre le vol/hacking ?",
       content:
-        "Nous mettons à disposition de nos utilisateurs du top 30 du marché crypto",
+        "Zurumi met en œuvre des mesures de sécurité (cold wallets, multi-sig, audits). Si une assurance existe, ses conditions (couverture, exclusions) seront précisées publiquement. Les incidents sont traités au cas par cas conformément aux CGU/Custody contract.",
     },
     {
-      title: "Nos fonds et données sont elles sécurisées?",
+      title: "Quels devises fiat sont acceptées ?",
       content:
-        "Nous répondons aux exigences de sécurité des plateformes internationales de l’industrie crypto et bancaire par l’intermédiaire de nos partenaires.",
+        "Les devises acceptées sont indiquées dans la page de dépôt et peuvent évoluer selon les partenaires et pays (ex. : XOF, USD, EUR selon disponibilité).",
+    },
+    {
+      title: "Quelles données Zurumi collecte-t-elle ?",
+      content:
+        "Voir la Politique de confidentialité : identification, KYC, transactions, logs, cookies, communications, documents justificatifs, données de portefeuille.",
+    },
+
+    {
+      title:
+        "Pourquoi Zurumi me demande des informations sur l’origine des fonds ?",
+      content:
+        "Obligation légale de lutte contre le blanchiment et le financement du terrorisme : Zurumi doit vérifier la provenance des fonds pour certains montants ou profils.",
     },
   ];
 

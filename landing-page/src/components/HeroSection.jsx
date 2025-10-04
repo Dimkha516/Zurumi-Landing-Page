@@ -14,12 +14,20 @@ const HeroSection = () => {
           {/* Texte à gauche */}
           <div className="space-y-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-            {/* <h1 className="font-heading text-4xl font-bold text-white"> */}
-
+              {/* <h1 className="font-heading text-4xl font-bold text-white"> */}
               Bienvenue sur la 1ere plateforme Crypto Exchange au Sénégal
+              <br></br>
+              <br></br>
+              <span className="bg-gradient-to-r from-purple-400 to-purple-400 bg-clip-text text-transparent">
+                {" "}
+                Sammal sa Xaliss{" "}
+              </span>
             </h1>
-            <p className="text-lg sm:text-xl text-gray-300">
-              Plongez dans le monde de la cryptomonnaie
+            {/* <p className="text-lg sm:text-xl text-gray-300">
+              Ak crypto ci say loxo
+            </p> */}
+            <p className="text-3xl sm:text-4xl font-bold text-white mb-12">
+              Ak crypto ci say loxo
             </p>
             {/* Bouton Play */}
             <button
