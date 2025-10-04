@@ -14,11 +14,9 @@ const HeroSection = () => {
           {/* Texte à gauche */}
           <div className="space-y-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+            {/* <h1 className="font-heading text-4xl font-bold text-white"> */}
+
               Bienvenue sur la 1ere plateforme Crypto Exchange au Sénégal
-              <span className="bg-gradient-to-r from-purple-400 to-purple-400 bg-clip-text text-transparent">
-                {" "}
-                Zurumi
-              </span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300">
               Plongez dans le monde de la cryptomonnaie
@@ -28,7 +26,6 @@ const HeroSection = () => {
               onClick={() => setOpen(true)}
               // className="flex items-center gap-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 transform hover:scale-105"
               className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105"
-
             >
               <Play className="w-5 h-5" />
               Regarder la vidéo
@@ -64,21 +61,11 @@ const HeroSection = () => {
                 <img
                   src="/Zurumi-Landing-Page/assets/affiche3.png"
                   alt="Aperçu application Zurumi"
-                  className="rounded-2xl w-64 sm:w-80 lg:w-88 xl:w-[29rem]"
+                  // className="rounded-2xl w-64 sm:w-80 lg:w-88 xl:w-[50rem]"
+                  // className="rounded-2xl w-72 sm:w-96 lg:w-[32rem] xl:w-[55rem]"
+                  // className="rounded-2xl w-80 sm:w-[28rem] lg:w-[40rem] xl:w-[65rem] transform scale-105"
+                  // className="rounded-2xl w-80 sm:w-[30rem] lg:w-[40rem] xl:w-[65rem] transform scale-125"
                 />
-              </div>
-
-              <div className="mt-6 text-center">
-                <p className="text-white text-lg font-semibold mb-3">
-                  App mobile disponible
-                </p>
-                <div className="flex gap-4 justify-center">
-                  <img
-                    src="/Zurumi-Landing-Page/assets/play_app_store.png"
-                    alt="App Store"
-                    className="h-10"
-                  />
-                </div>
               </div>
             </div>
           </div>

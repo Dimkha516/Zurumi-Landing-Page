@@ -1,0 +1,10 @@
+/* Supprime le footer Binance (Propulsé par / Avertissement) */
+.binance-widget-marquee .binance-widget-marquee__footer {
+  display: none !important;
+}
+
+/* Désactive les clics sur les cryptos */
+.binance-widget-marquee a {
+  pointer-events: none !important;
+  cursor: default !important;
+}
