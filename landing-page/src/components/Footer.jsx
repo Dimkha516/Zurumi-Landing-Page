@@ -14,7 +14,7 @@ const Footer = () => {
             className="transition hover:scale-110"
           >
             <img
-              src="/Zurumi-Landing-Page/assets/site.png"
+              src="/Zurumi-Landing-Page/assets/telegram.png"
               alt="Site web"
               className="w-8 h-8"
             />

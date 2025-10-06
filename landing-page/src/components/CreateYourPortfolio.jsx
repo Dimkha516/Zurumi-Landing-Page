@@ -11,7 +11,7 @@ const CreateYourPortfolio = () => {
   const buyActions = [
     { text: "Achat et Vente instantané", icon: ShoppingCart },
     { text: "Envoyer et Recevoir", icon: Send },
-    { text: "Retirer en devices", icon: Download },
+    { text: "Retrait en devises", icon: Download },
     { text: "Trading", icon: TrendingUp },
     { text: "Epargne", icon: Layers },
     { text: "Créer, Acheter & Vendre NFT", icon: Image },
