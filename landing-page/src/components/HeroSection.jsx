@@ -67,7 +67,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="relative">
                 <img
-                  src="/Zurumi-Landing-Page/assets/affiche4.png"
+                  src="/Zurumi-Landing-Page/assets/Capture d'écran 2025-10-07 091040.png"
                   alt="Aperçu application Zurumi"
                   // className="rounded-2xl w-64 sm:w-80 lg:w-88 xl:w-[50rem]"
                   // className="rounded-2xl w-72 sm:w-96 lg:w-[32rem] xl:w-[55rem]"
