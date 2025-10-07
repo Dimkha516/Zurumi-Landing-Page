@@ -14,7 +14,6 @@ import SupportSection from "./components/SupportSection";
 
 function App() {
   return (
-    // <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-950 to-gray-900 text-white">
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white">
       <NavBar />
       <HeroSection />

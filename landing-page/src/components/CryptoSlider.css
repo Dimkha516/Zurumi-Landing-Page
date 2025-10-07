@@ -2,15 +2,19 @@
 /* .binance-widget-marquee .binance-widget-marquee__footer {
   display: none !important;
 } */
- .binance-widget-marquee .binance-widget-marquee__footer {
+ /* .binance-widget-marquee .binance-widget-marquee__footer {
   display: none !important;
   height: 0 !important;
   visibility: hidden !important;
   overflow: hidden !important;
-}
+} */
 
 /* Désactive les clics sur les cryptos */
 .binance-widget-marquee a {
   pointer-events: none !important;
   cursor: default !important;
 }
+
+
+
+ 

@@ -1,0 +1,36 @@
+/* CryptoSlider.css - adaptation du fond de l'image au bg de App.jsx */
+
+/* wrapper reproduit le gradient de l'app (from-black via-gray-900 to-black) */
+.zurumi-image-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 1rem;        /* rounded-2xl approx. */
+  padding: 6px;              /* crée un "cadre" qui masque les bords discordants */
+  background: linear-gradient(135deg, #000000 0%, #111827 50%, #000000 100%);
+}
+
+/* ombre interne douce pour mieux fondre l'image aux bords */
+.zurumi-image-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  box-shadow: inset 0 30px 60px rgba(0, 0, 0, 0.55);
+}
+
+/* image : on garde son bg #202020 mais on la fond avec le wrapper */
+.zurumi-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #202020;  /* couleur de ton image */
+  object-fit: cover;
+  mix-blend-mode: multiply;   /* essaie aussi overlay / screen si besoin */
+  filter: brightness(0.98);
+}
+
+/* Si mix-blend-mode multiply assombrit trop l'image, changer ainsi :
+.zurumi-image { mix-blend-mode: overlay; filter: none; }
+*/

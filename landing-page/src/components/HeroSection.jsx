@@ -62,17 +62,14 @@ const HeroSection = () => {
             )}
           </div>
 
-          {/* Image à droite */}
           <div className="flex justify-center">
             <div className="relative">
-              <div className="relative">
+              <div className="zurumi-image-wrapper rounded-2xl">
                 <img
-                  src="/Zurumi-Landing-Page/assets/Capture d'écran 2025-10-07 091040.png"
+                  src="/Zurumi-Landing-Page/assets/affiche3.png"
                   alt="Aperçu application Zurumi"
-                  // className="rounded-2xl w-64 sm:w-80 lg:w-88 xl:w-[50rem]"
-                  // className="rounded-2xl w-72 sm:w-96 lg:w-[32rem] xl:w-[55rem]"
-                  // className="rounded-2xl w-80 sm:w-[28rem] lg:w-[40rem] xl:w-[65rem] transform scale-105"
-                  // className="rounded-2xl w-80 sm:w-[30rem] lg:w-[40rem] xl:w-[65rem] transform scale-125"
+                  // className="zurumi-image rounded-2xl w-64 sm:w-80 lg:w-88 xl:w-[50rem] object-cover"
+                className="rounded-4xl w-70 lg:w-100"
                 />
               </div>
             </div>
