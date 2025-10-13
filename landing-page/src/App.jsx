@@ -24,7 +24,7 @@ function App() {
       <SupportSection />
 
       <Questions />
-      <WaitlistForm />
+      {/* <WaitlistForm /> */}
       <Footer />
       <ScrollToTop />
     </div>

@@ -29,7 +29,7 @@ const NavBar = () => {
             {/* Logo seul */}
             <img
               // src="/assets/Logo_white_theme.png"
-              src="/Zurumi-Landing-Page/assets/Logo_white_theme.png" 
+              src="/Zurumi-Landing-Page/assets/Logo_white_theme.png"
               alt="Zurumi Logo"
               className="h-12 w-auto sm:h-16"
             />
@@ -66,12 +66,14 @@ const NavBar = () => {
             </button>
           </div>
 
-          <button
-            onClick={() => scrollToSection("waitlist")}
-            className="bg-gradient-to-r from-purple-500 to-purple-500 text-white px-4 sm:px-6 py-2 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 text-sm sm:text-base"
+          <a
+            href="https://airtable.com/apphnrilL8oPhLRQT/pagsIdhWwfHoUZk0A/form"
+            target="_blank"
           >
-            S'enregistrer
-          </button>
+            <button className="bg-gradient-to-r from-purple-500 to-purple-500 text-white px-4 sm:px-6 py-2 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 text-sm sm:text-base">
+              S'enregistrer
+            </button>
+          </a>
         </div>
       </div>
     </nav>
