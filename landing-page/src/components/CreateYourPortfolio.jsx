@@ -7,6 +7,8 @@ import {
   Image,
 } from "lucide-react";
 
+import Capture from "../assets/Capture.png";
+
 const CreateYourPortfolio = () => {
   const buyActions = [
     { text: "Achat et Vente instantané", icon: ShoppingCart },
@@ -32,7 +34,7 @@ const CreateYourPortfolio = () => {
               <div className="relative">
                 <img
                   //   src="/assets/affiche 2.png"
-                  src="/Zurumi-Landing-Page/assets/Capture.png"
+                  src={Capture}
                   alt="Aperçu application Zurumi"
                   className="w-64 sm:w-80"
                 />

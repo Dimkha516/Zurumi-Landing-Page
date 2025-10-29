@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Logo_white_theme from "../assets/Logo_white_theme.png"
 
 const NavBar = () => {
   const [isScrolled, setIsSCrolled] = useState(false);
@@ -28,8 +29,8 @@ const NavBar = () => {
           <div className="flex-shrink-0">
             {/* Logo seul */}
             <img
-              // src="/assets/Logo_white_theme.png"
-              src="/Zurumi-Landing-Page/assets/Logo_white_theme.png"
+              // src="/Zurumi-Landing-Page/assets/Logo_white_theme.png"
+              src={Logo_white_theme}
               alt="Zurumi Logo"
               className="h-12 w-auto sm:h-16"
             />

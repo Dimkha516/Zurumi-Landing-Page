@@ -5,6 +5,8 @@ import {
   CreditCard,
 } from "lucide-react";
 
+import Screenshot_portrait from "../assets/Screenshot_portrait.png"
+
 const AdvantagesSection = () => {
   const advantages = [
     {
@@ -43,7 +45,7 @@ const AdvantagesSection = () => {
           {/* Partie droite : image */}
           <div className="flex justify-center">
             <img
-              src="/Zurumi-Landing-Page/assets/Screenshot_portrait.png"
+              src={Screenshot_portrait}
               alt="Présentation Zurumi"
               className="rounded-4xl w-70 lg:w-100"
             />

@@ -1,5 +1,6 @@
 import { Play, X } from "lucide-react";
 import { useState } from "react";
+import affiche3 from '../assets/affiche3.png'
 
 const HeroSection = () => {
   const [open, setOpen] = useState(false);
@@ -68,7 +69,8 @@ const HeroSection = () => {
             <div className="relative">
               <div className="zurumi-image-wrapper rounded-2xl">
                 <img
-                  src="/Zurumi-Landing-Page/assets/affiche3.png"
+                  // src="/Zurumi-Landing-Page/assets/affiche3.png"
+                  src={affiche3}
                   alt="Aperçu application Zurumi"
                   // className="zurumi-image rounded-2xl w-64 sm:w-80 lg:w-88 xl:w-[50rem] object-cover"
                 className="rounded-4xl w-70 lg:w-100"

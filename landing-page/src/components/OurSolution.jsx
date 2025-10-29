@@ -1,3 +1,4 @@
+import threeInOne from "../assets/3-en-1.png";
 const OurSolution = () => {
   return (
     <section id="solutions" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -14,7 +15,7 @@ const OurSolution = () => {
         {/* Image unique centrée */}
         <div className="flex justify-center">
           <img
-            src="/Zurumi-Landing-Page/assets/3-en-1.png"
+            src={threeInOne}
             alt="Présentation Zurumi"
             // className="rounded-4xl w-70 lg:w-200"
             className="rounded-8xl w-100 sm:w-100 lg:w-100 xl:w-[80rem]"
