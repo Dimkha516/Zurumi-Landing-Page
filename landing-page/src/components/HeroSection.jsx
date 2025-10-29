@@ -19,8 +19,10 @@ const HeroSection = () => {
               <br></br>
               <br></br>
               <span className="bg-gradient-to-r from-purple-400 to-purple-400 bg-clip-text text-transparent">
+                {/* {" "}
+                Sammal sa Xaliss{" "} */}
                 {" "}
-                Sammal sa Xaliss{" "}
+                Lancement Officiel en Janvier 2026 {" "}
               </span>
             </h1>
             {/* <p className="text-lg sm:text-xl text-gray-300">
